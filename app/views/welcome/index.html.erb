@@ -1,4 +1,4 @@
-<h1>Abagods be praised!</h2>
+<%# <h1>Abagods be praised!</h2> %>
 <%= link_to 'Abacus Resources', controller: 'articles' %>
 
 <h2>Abacus Masternode Stats:</h2>
@@ -8,6 +8,7 @@
           <thead>
             <tr>
               <th>Masternode Coin</th>
+              <th>ROI</th>
               <th>Total</th>
               <th>Stable</th>
               <th>Enabled</th>
@@ -16,6 +17,7 @@
           <tbody>
             <tr>
               <td>Abacus</td>
+              <td><%= @mn_roi.round(2) %></td>
               <td><%= @mn_total %></td>
               <td><%= @mn_stable %></td>
               <td><%= @mn_enabled %></td>

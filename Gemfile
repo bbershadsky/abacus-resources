@@ -6,6 +6,7 @@ ruby '2.6.1'
 gem "http"
 gem 'bootstrap'
 gem 'jquery-rails'
+gem 'mathn'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
